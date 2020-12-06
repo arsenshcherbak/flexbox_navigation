@@ -1,0 +1,27 @@
+header {
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(38, 38, 38);
+  color: white;
+  flex-wrap: wrap;
+}
+div:first-child {
+  font-family: "Special Elite", cursive;
+  font-size: 32px;
+}
+ul {
+  display: flex;
+  font-family: sans-serif;
+}
+li {
+  margin: 10px 10px 10px 0;
+}
+ul,
+div:last-child{
+  font-weight: 600;
+}
+div:last-child {
+  border: 1px solid white;
+  padding: 10px;
+}
